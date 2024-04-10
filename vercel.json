@@ -1,0 +1,7 @@
+{
+    "rewrites": [
+        { "source": "/github", "destination": "https:/github.com/dondonMD" },
+        { "source": "/linkedin", "destination": "https:/linkedin.com/in/modisa-donald-mokoena" },
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
