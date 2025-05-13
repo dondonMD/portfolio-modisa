@@ -1,4 +1,8 @@
-import { EnvelopeIcon, LinkedinIcon, GithubIcon } from 'components/socialLinks';
+import { 
+  EnvelopeIcon, 
+  LinkedinIcon, 
+  GithubIcon 
+} from '@/app/components/SocialIcons'; 
 
 export const navLinks = [
   { name: 'About', hash: '#about' },
