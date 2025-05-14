@@ -1,5 +1,5 @@
 // app/layout.tsx
-import "./globals.css";
+import "@/app/styles/globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import ThreeSceneWrapper from "@/app/ThreeSceneWrapper";
 

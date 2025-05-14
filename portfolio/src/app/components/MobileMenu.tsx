@@ -1,8 +1,8 @@
-'use client';
-import { motion } from 'framer-motion';
-import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline';
-import { useState } from 'react';
-import { navLinks } from '@/config/links';
+"use client";
+import { motion } from "framer-motion";
+import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { navLinks } from "@/config/socials.ts";
 
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);

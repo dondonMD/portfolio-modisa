@@ -1,9 +1,13 @@
-'use client';
-import { motion } from 'framer-motion';
-import { MoonIcon, SunIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline';
-import { useTheme } from '@/context/ThemeContext';
-import MobileMenu from './MobileMenu';
-import { navLinks } from '@/config/links';
+"use client";
+import { motion } from "framer-motion";
+import {
+  MoonIcon,
+  SunIcon,
+  ComputerDesktopIcon,
+} from "@heroicons/react/24/outline";
+import { useTheme } from "@/context/ThemeContext";
+import MobileMenu from "./MobileMenu";
+import { navLinks } from "@/config/socials.ts";
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
@@ -43,7 +47,7 @@ export default function Navbar() {
                 onClick={toggleTheme}
                 className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
               >
-                {theme === 'light' ? (
+                {theme === "light" ? (
                   <MoonIcon className="h-6 w-6 text-slate-600" />
                 ) : (
                   <SunIcon className="h-6 w-6 text-slate-300" />
