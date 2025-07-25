@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.23.9",
     "intersection-observer": "^0.12.2",
     "next": "^15.3.4",
     "react": "^19.1.0",
