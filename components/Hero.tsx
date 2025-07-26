@@ -174,7 +174,7 @@ export default function Hero() {
               {/* Main Image Container */}
               <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-white/20 dark:border-dark-700/50 shadow-2xl backdrop-blur-sm group-hover:scale-105 transition-all duration-500">
                 <img 
-                  src="/assets/profile-pic.png" 
+                  src="/assets/profile.jpg" 
                   alt="Modisa Donald Mukwena - Software Engineer" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
                 />
