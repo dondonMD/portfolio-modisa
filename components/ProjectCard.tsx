@@ -171,7 +171,7 @@ export default function ProjectCard() {
         'Consul for service discovery and health checking',
         'Blue-green deployment strategy with Kubernetes'
       ],
-      github: 'https://github.com/dondonMD/api-gateway',
+      github: 'https://github.com/dondonMD/microservices-api-gateway',
       image: '/assets/projects/api-gateway.jpg',
       status: 'completed',
       featured: true,
